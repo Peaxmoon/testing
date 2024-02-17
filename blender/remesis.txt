@@ -1,0 +1,71 @@
+1).
+
+#Download Blender from Repository - Run Once unless version changed
+
+!wget https://ftp.nluug.nl/pub/graphics/blender//release/Blender4.0/blender-4.0.2-linux-x64.tar.xz
+
+
+
+
+2).
+
+#Connect Google Drive
+from google.colab import drive
+drive.mount('/content/drive')
+
+
+
+3).
+
+#install Blender
+!tar xf blender-4.0.2-linux-x64.tar.xz
+
+
+
+
+4).
+
+#set the paths to Blender Files
+filename = '/content/drive/MyDrive/GoogleCollabRender/CollabTestProject/ballsacksec.blend'
+
+
+
+
+
+5).
+
+#Render
+!./blender-4.0.2-linux-x64/blender -b $filename -noaudio -E 'CYCLES' -o '/content/drive/MyDrive/GoogleCollabRender/CollabTestProject/Renders/testRender_'  -s 24 -e 49 -a -F 'PNG' -- --cycles-device CUDA
+
+
+
+
+
+6).
+
+#Copy Blender to gdrive - Run Once unless version changed
+!cp /content/blender-3.6.2-linux-x64.tar.xz /content/drive/MyDrive/Blender/blender-3.6.2-linux-x64.tar.xz
+
+
+
+
+
+7).
+
+#Copy Blender back to Colab
+!cp /content/drive/MyDrive/Blender/blender-3.6.2-linux-x64.tar.xz /content/blender-3.6.2-linux-x64.tar.xz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+
+Sujjal@cultural MINGW64 /e/c/cprogrambasic (main)
+$ git log
+commit 0ed24748330deda401956f09742880cc546973b0 (HEAD -> main)
+Author: Peaxmoon <sujjalboi09@gmail.com>
+Date:   Fri Feb 16 18:29:01 2024 +0545
+
+    Blender picture for animation added but couldn't make video due to device problem
+
+commit daf993564a87a4e8c7b097842b87c6d508145f0e (origin/main, origin/HEAD)
+Author: Peaxmoon <sujjalboi09@gmail.com>
+Date:   Fri Feb 16 12:45:24 2024 +0545
+
+    the unwanted file deleted
+
+commit d9c1da83cf8af53ab1a88a8b6b094ee6921d8d62
+Author: Peaxmoon <sujjalboi09@gmail.com>
+Date:   Fri Feb 16 12:44:29 2024 +0545
+
+    My entire project for 10 days of work and render now doing
+
+commit 2500ed402b30b41d05c383035740adc02d33b58a
+Author: Peaxmoon <sujjalboi09@gmail.com>
+Date:   Fri Feb 16 12:41:52 2024 +0545
+
+    sahabir inspired me
+
+:
